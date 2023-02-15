@@ -1,0 +1,126 @@
+div.containerLight {
+    background-color: #5f5f5f;
+    /* width: 274px;
+    height: 248px;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+    color: #ffffff; */
+}
+
+.container {
+    background-color: #333333;
+    width: 274px;
+    height: 248px;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.title {
+    padding: 8px;
+    margin: 0;
+    width: 107px;
+    height: 24px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.check {
+    width: 24px;
+    height: 24px;
+    background-color: #333333;
+    border: 1.5px solid #B4B4B4;
+    margin: 0;
+}
+
+.ToDo {
+    width: 80px;
+    height: 19px;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    gap: 12px;
+    box-sizing: border-box;
+    width: 132px;
+    height: 40px;
+
+}
+
+.titleLight {
+    padding: 8px;
+    margin: 0;
+    width: 107px;
+    height: 24px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+}
+
+
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    gap: 12px;
+    box-sizing: border-box;
+    width: 132px;
+    height: 40px;
+
+}
+
+.ToDo2 {
+    width: 80px;
+    height: 19px;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+
+/* 
+.checkbox {
+    width: 24px;
+    height: 24px;
+    background-color: #333333;
+    border: 1.5px solid #B4B4B4;
+    margin: 0;
+} */
+.container:hover {
+    background-color: red;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+
+    position: relative;
+    width: 892px;
+    height: 328px;
+
+}

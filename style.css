@@ -1,9 +1,5 @@
-/* TODO: Reset body margins */
-/* TODO: Use display flex to position all elements, don't use position: absolute */
-
 .mntn {
     position: relative;
-    /* TODO: Make width 100% */
     width: 1920px;
     height: 4600px;
     background: #0B1D26;
@@ -11,17 +7,14 @@
 }
 
 .header {
-    /* TODO: Use display flex to position all elements, don't use position: absolute */
     position: absolute;
     width: 1760px;
-    /* TODO: Remove width */
     height: 25px;
     left: 80px;
     top: 64px;
 }
 
 .logo {
-    /* TODO: Use display flex to position all elements, don't use position: absolute */
     position: absolute;
     width: 108px;
     height: 24px;
@@ -29,7 +22,6 @@
     top: 0px;
 }
 
-/* TODO: Use one container to display text logo, remove absolute positioning */
 .n {
     position: absolute;
     width: 26px;
@@ -87,7 +79,6 @@
     color: #FFFFFF;
 }
 
-/* TODO: Use one container to display text logo, remove absolute positioning */
 .account {
     position: absolute;
     width: 98px;
